@@ -146,7 +146,7 @@ namespace properties
         int res = exp_res;
         if (int(real_res) != res)
         {
-            for (int i = 0; i < nodes; ++i) d_weight += learnrate * (double(exp_res) - real_res) * values.at(i);
+            for (int i = 0; i < nodes; ++i) d_weight += learnrate * (double(exp_res)*1.1 - real_res) * values.at(i);
             double diff = d_weight / double(nodes) * 1.1;
             for (int i = 0; i < nodes; ++i) weights.at(i) += diff;
         }
