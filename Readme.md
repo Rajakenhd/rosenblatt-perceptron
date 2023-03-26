@@ -21,10 +21,13 @@ Das Perzeptron in diesem Projekt symbolisiert je nach Auswahl AND / OR Logikgatt
 Die Minimalbedingung eines Logikgatters ist die Bedingung mit der geringsten Eingabe, bei welcher das Logikgatter umschlägt.
 
 ### Programmnutzung - Grundlegend
+**Hinweis: Die .ini Datei speichert das Layout und sollte nicht gelöscht werden.**
+
 Im Anfangszustand können zwei Eingaben, sowie die Ausgabe festgelegt werden. Dabei werden Eingabe und Ausgabezustände grafisch unter der Wertetabelle dargestellt. Dann kann das Perzeptron Lernen, wobei mit jeder Aktivierung des Train-Buttons eine Lerniteration ausgeführt wird. Dies sollte solange widerholt werden, bis die Gewichtungstabelle sich nicht mehr verändert. In der Wertetabelle werden alle möglichen Kombinationen für das jeweilige Logikgatter gezeigt. Da die Gewichtung für alle Eingabewerte gleich ist, sind die Positionen der einzelnen Werte austauschbar sind.
 
 ### Programmnutzung - Fortgeschritten
 Insofern "Erweiterte Optionen" aktiviert sind, können dort die Anzahl der Eingabe-Werte, sowie die Lernrate verändert werden. Jedoch rate ich davon ab die Lernrate zu verändern, da diese sich normalerweise von allein an die Anzahl der Eingabewerte anpasst und somit eine Überspezifikation des Neurons verhindert.
+Bei mehr als 2 Input-Nodes wird die grafische Darstellung auf 2 Nodes abstrahiert.
 
 ## Logikgatter Klassifizierung
 Bei den möglichen Logikgattern / Perzeptrons sind solche für welche die Minimalbedingung die einzige ist, welche den Schwellenwert übersteigt UND-Gatter und alle anderen Modifikationen von ODER-Gattern.
