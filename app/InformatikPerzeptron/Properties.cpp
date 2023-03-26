@@ -54,6 +54,7 @@ namespace properties
         if(autoAdjustLearnrate) learnrate = 1 / double(nodes);
         for (int i = 0; i < nodes; ++i) values.at(i) = values.at(i) >= 1 ? 1 : 0;
         exp_res = exp_res >= 1 ? 1 : 0;
+        nodes = nodes <= 2 ? 2 : nodes;
     }
 
 

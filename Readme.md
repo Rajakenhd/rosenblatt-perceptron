@@ -28,3 +28,11 @@ Insofern "Erweiterte Optionen" aktiviert sind, können dort die Anzahl der Einga
 
 ## Logikgatter Klassifizierung
 Bei den möglichen Logikgattern / Perzeptrons sind solche für welche die Minimalbedingung die einzige ist, welche den Schwellenwert übersteigt UND-Gatter und alle anderen Modifikationen von ODER-Gattern.
+
+## Build-Anleitung
+**Hinweis: JetBrains Rider empfohlen (Visual Studio ist auch möglich)**
+
+- app/InformatikPerzeptron.vcxproj öffnen
+- optional: Konfiguration anpassen
+- Build ausführen
+- Build findet sich unter app/Debug
