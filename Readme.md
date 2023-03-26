@@ -12,4 +12,10 @@ von Raphael Enßlin
 ## Übersicht
 ### Grundlegendes
 Dieses Programm stellt die Funktionsweise eines Einlagigen Perzeptrons mit n binären Eingaben und einer binären Ausgabe.
-Das Perzeptron in diesem Projekt symbolisiert je nach Auswahl AND / OR Logikgatter mit n Eingabewerten. Aufgrund der Natur der Logikgatter erhalten alle Werte dieselbe Gewichtung, welche jedoch durch das Lernen immerhin
+Das Perzeptron in diesem Projekt symbolisiert je nach Auswahl AND / OR Logikgatter mit n Eingabewerten. Da Logikgatter die einzelnen Eingänge nicht spezifizieren, sind alle Eingänge gleich gewichtet, wobei die einzelnen Gewichte durch den Lernprozess bestimmt werden.
+
+### Programmnutzung - Grundlegend
+Im Anfangszustand können zwei Eingaben, sowie die Ausgabe festgelegt werden.
+
+### Programmnutzung - Fortgeschritten
+
